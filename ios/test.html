@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Quick Menu</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="Content-Type"
+          content="text/html;charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=Edge" />
+
+    <style>
+        body {
+            margin: 0px
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <!-- <div style="margin:2rem;">
+
+        <label for="id">ID :</label>
+        <input type="text"
+               id="userid"
+               name="id"> -->
+
+        <!--
+<label for="pw">PW :</label>
+<input type="text" id="userpw" name="pw">
+-->
+        <!-- <button type="button" onclick="f_login();">
+    Submit
+</button>
+
+
+<button type="button" onclick="f_logout();">
+    Logout
+</button> -->
+        <!-- 
+
+<a href="https://raw.githubusercontent.com/LEECHUNGYOON/YOON_TEST/down/ios/testyoon.plist" download>클릭</a>
+<a href="https://www.u4ainfo.com/u4a_test/soccerhs/img/u4a_logo.png" download>클릭2</a>
+<a href="https://www.u4ainfo.com/u4a_test/soccerhs/ios/test.plist" download>클릭3</a>
+
+<a href="itms-services://?action=download-manifest&url=https://www.u4ainfo.com/u4a_test/soccerhs/ios/test.plist" download>앱 다운</a> -->
+
+        <button type="button" style="width:200px;height:200px;margin:2rem;" onclick="ios_app_down();">
+            앱 다운
+        </button>
+
+    </div>
+    </div>
+
+
+
+    <script>
+
+        function ios_app_down() {
+
+            alert("ios 다운 갑니다!! 긴장되시죠? 과연 잘 될까요?ㅋㅋㅋ");
+
+            window.location = "itms-services://?action=download-manifest&url=https://www.u4ainfo.com/u4a_test/soccerhs/ios/test.plist";
+
+
+        }
+
+
+
+        // function f_login(){
+
+        // var sid = document.getElementById("userid").value;
+        // if(sid == "" || sid == null){
+        // 	alert("아이디를 입력하세요!!");		
+        // 	return;
+        // }
+
+        /*
+        var spw = document.getElementById("userpw").value;
+        if(spw == "" || spw == null){
+        	alert("비밀번호를 입력하세요!!");		
+        	return;
+        }
+        */
+        // var sUrl = "http://sapecc1.yourin.com:8000/zu4a/ylcy_test0125?id=" + sid;
+
+        // window.open(sUrl);
+
+        // }
+
+        // function f_logout(){
+
+        // var sUrl = "http://sapecc1.yourin.com:8000/zu4a/sessionlogoff";
+
+        // window.open(sUrl);
+
+        // }
+    </script>
+
+</body>
+
+</html>
